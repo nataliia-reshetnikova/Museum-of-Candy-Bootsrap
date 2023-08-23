@@ -1,0 +1,25 @@
+body {
+  background-color: RGB(246, 211, 219);
+}
+
+.navbar-brand {
+  padding: 0.5rem;
+  align-self: baseline;
+}
+
+.secondary-color {
+  color: RGB(212, 120, 128);
+}
+
+.pink-text {
+  font-size: 14px;
+  color: RGB(227, 173, 188);
+}
+
+.nav-link:hover {
+  color: RGB(212, 120, 128);
+}
+
+nav:has(a.nav-link[href*="#home"]:not(.active)) {
+  background-color: RGB(212, 120, 128, 0.5);
+}
